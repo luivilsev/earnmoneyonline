@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat";
+  color: #40514E;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  color: #EA7300;
+  line-height: 2;
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+h2 {
+  line-height: 2;
+  font-size: 3rem;
+  margin-top: 100px;
+  color: #006A71;
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  color: #40514E;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+em {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #222222;
+}
+
+.title-container {
+  padding-top: 265px;
+  background-color: #EAF6F6;
+  position: relative;
+  padding-bottom: 265px;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.carousel-inner {
+  background-color: #B6E2A1;
+  padding: 100px;
+}
+
+.logo {
+  width: 50%;
+  height: 50%;
+  margin: 100px auto 100px auto;
+  text-align: justify;
+}
+
+.logo a:hover {
+  color: #2D033B;
+}
+
+.lui-img {
+  width: 20%;
+  margin: 20px;
+}
+
+.logo-img {
+  padding: 10px;
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 110px;
+}
+
+.footer-section {
+  background-color: #66BFBF;
+  padding: 50px;
+}
+
+.social-icon {
+  text-align: center;
+  margin: 20px; 10px;
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.feature-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+
+@media (max-width: 1092px) {
+  .title-container {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  em {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .lui-img {
+    width: 100%;
+    margin: 0;
+    padding-top: 10%;
+  }
+
+  .logo-img {
+    width: 100%;
+    margin: auto;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .btn {
+    margin-bottom: 10px;
+  }
+
+}
